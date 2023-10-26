@@ -7,13 +7,12 @@ int main() {
         len++;
     }
 
-    for (int i = 1; i <= len; i++) {
-        for (int j = 0; j < i; j++) {
+    for(int i = len; i > 0; i--){
+        for(int j = 0; j < i; j++){
             printf("%c", str[j]);
         }
         printf("\n");
     }
-    
 
     return 0;
 }
